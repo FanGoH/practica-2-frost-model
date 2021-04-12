@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 2</title>
+</head>
+
+<body>
+
+    <canvas id="canvas" style="width: 50%; height: 100%;"></canvas>
+
+    <aside>
+        <div id="scaleDiv">Escalamiento <div> X <input id="xScaleSlide"
+                    type="range" value="1" min="0.1" max="5" step="0.01" />
+                <span id="xScaleValue">1</span>
+            </div>
+
+            <div> Y <input id="yScaleSlide" type="range" value="1" min="0.1"
+                    max="5" step="0.01" /> <span id="yScaleValue">1</span>
+            </div>
+
+            <div> Z <input id="zScaleSlide" type="range" value="1" min="0.1"
+                    max="5" step="0.01" /> <span id="zScaleValue">1</span>
+            </div>
+        </div>
+
+
+        <div id="translateDiv">Traslación <div> X <input id="xTranslateSlide"
+                    type="range" value="0" min="-5" max="5" step="0.01" />
+                <span id="xTranslateValue">0</span>
+            </div>
+
+            <div> Y <input id="yTranslateSlide" type="range" value="0" min="-5"
+                    max="5" step="0.01" />
+                <span id="yTranslateValue">0</span>
+            </div>
+
+            <div> Z <input id="zTranslateSlide" type="range" value="0" min="-5"
+                    max="5" step="0.01" />
+                <span id="zTranslateValue">0</span>
+            </div>
+        </div>
+
+        <div id="rotationDiv">Rotacion <div> X <input id="xRotationSlide"
+                    type="range" value="1" min="0.1" max="5" step="0.01" />
+                <span id="xRotationValue"></span>
+            </div>
+
+            <div> Y <input id="yRotationSlide" type="range" value="1" min="0.1"
+                    max="5" step="0.01" /> <span id="yRotationValue"></span>
+            </div>
+
+            <div> Z <input id="zRotationSlide" type="range" value="1" min="0.1"
+                    max="5" step="0.01" /> <span id="zRotationValue"></span>
+            </div>
+        </div>
+
+
+    </aside>
+
+
+    <script src="index.js" async defer type="module"></script>
+</body>
+
+</html>
